@@ -3,6 +3,7 @@ from .bge_m3_retriever import BGEM3Retriever
 from .biqwen_retriever import BiQwenRetriever
 from .bm25_retriever import BM25Retriever
 from .cohere_api_retriever import CohereAPIRetriever
+from .colidefics3_retriever import ColIdefics3Retriever
 from .colpali_retriever import ColPaliRetriever
 from .colqwen_retriever import ColQwenRetriever
 from .dse_qwen2_retriever import DSEQwen2Retriever
@@ -12,4 +13,3 @@ from .nomic_retriever import NomicVisionRetriever
 from .registry_utils import VISION_RETRIEVER_REGISTRY, load_vision_retriever_from_registry, register_vision_retriever
 from .siglip_retriever import SigLIPRetriever
 from .vision_retriever import VisionRetriever
-
